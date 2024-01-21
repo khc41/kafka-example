@@ -5,13 +5,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TestProducerTest {
+class TestProducerTemplate {
 
     @Autowired
-    private TestProducer testProducer;
+    private TestTemplateProducer testTemplateProducer;
 
     @Test
     void test() {
-        testProducer.testSend();
+        testTemplateProducer.testSend();
     }
 }
